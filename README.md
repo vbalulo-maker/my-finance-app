@@ -1,16 +1,22 @@
-# React + Vite
+# 💰 Златник — трекер личных финансов
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Веб-приложение для учёта доходов и расходов с привязкой к банковским картам.
 
-Currently, two official plugins are available:
+**🌐 Демо:** [vbalulo-maker.github.io/my-finance-app](https://vbalulo-maker.github.io/my-finance-app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## ✨ Возможности
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 💳 **Мультибанк** — несколько карт с автоматическим пересчётом баланса
+- 💸 **Транзакции** — доходы и расходы с категориями и привязкой к банку
+- 📊 **Аналитика** — график динамики и распределение по категориям
+- 🔍 **Фильтры** — по периоду, банку, типу операции
+- ⚙️ **Свои категории** — добавление, переименование, удаление
+- 💾 **localStorage** — работает без сервера и регистрации
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🛠️ Стек
+
+React 19 · Vite 8 · Tailwind 4 · shadcn/ui · Recharts · Context API · GitHub Pages
