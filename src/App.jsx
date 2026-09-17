@@ -20,6 +20,7 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from './components/ui/alert-dialog';
+import { DataManager } from './components/DataManager';
 
 // Названия месяцев в винительном падеже (для «за сентябрь»)
 const MONTHS_ACCUSATIVE = [
@@ -374,6 +375,21 @@ function App() {
                   </div>
                 )}
               </div>
+            </div>
+
+                        {/* Экспорт/Импорт данных */}
+            <div className="mt-4">
+              <details className="group">
+                <summary className="cursor-pointer text-xs text-neutral-500 hover:text-black transition flex items-center gap-1 list-none">
+                  <svg className="h-3 w-3 transition-transform group-open:rotate-90" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+                  </svg>
+                  Резервное копирование данных
+                </summary>
+                <div className="mt-2">
+                  <DataManager onImportSuccess={() => window.location.reload()} />
+                </div>
+              </details>
             </div>
 
             {/* Поля выбора дат для кастомного периода */}
