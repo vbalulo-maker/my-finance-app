@@ -17,6 +17,7 @@
     "@mui/icons-material": "^9.4.0",
     "@mui/material": "^9.4.0",
     "@mui/x-charts": "^9.13.0",
+    "@tabler/icons-react": "^3.47.0",
     "@tailwindcss/vite": "^4.3.3",
     "class-variance-authority": "^0.7.1",
     "cn": "^0.2.6",
